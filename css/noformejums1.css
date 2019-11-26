@@ -1,6 +1,5 @@
-body{
-	font-family: Tahoma;
-	background: #FAEBD7;
+div {
+  background-image: url('st.jpg');
 }
 
 .main{
@@ -74,9 +73,9 @@ h1{
 }
 
 footer{
-	text-align: center;
+	text-align: left;
 	width: 820px;
-	float:center;
+	float:left;
 }
 
 .leftaside{
@@ -96,9 +95,9 @@ main{
 
 .rightaside{
 	style
-	width: 420px;
+	width: 200px;
 	background-color: pink;
-	float:left;
+	;
 
 }
 
@@ -119,3 +118,20 @@ footer{
 
 
 
+
+{
+  box-sizing: border-box;
+}
+
+.bb {
+  float: left;
+  width: 33%;
+  padding: 1px;
+}
+
+
+.b1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
